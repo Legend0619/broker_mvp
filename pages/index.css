@@ -1,462 +1,460 @@
 .container {
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
-    position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
 }
-  
+
 .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: solid 1px #e2e8f0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: solid 1px #e2e8f0; */
 }
 /* .hero-required-input, #insurance_start_date, #postcode {
     
     height: 52px !important;
 } */
 .slider-wrapper {
-    height: 50vw !important;
+  height: 50vw !important;
 }
 .hero-content {
-    aspect-ratio: 16/9;
-    border: solid 1px red;
+  aspect-ratio: 16/9;
+  border: solid 1px red;
 }
 .broker-image {
-    float: right;
-    /* width: 45vw !important;   */
+  float: right;
+  /* width: 45vw !important;   */
 }
 .broker-content {
-    position: absolute;
-    bottom: 0 !important;
-    right: 0 !important;
+  position: absolute;
+  bottom: 0 !important;
+  right: 0 !important;
 }
 .broker-content img {
-    width: 76%; /* Set the width of the image to 100% */
-    object-fit: cover; /* Scale the image while maintaining its aspect ratio */
+  width: 76%; /* Set the width of the image to 100% */
+  object-fit: cover; /* Scale the image while maintaining its aspect ratio */
 }
 .broker-search-tool {
-    position: relative;
-    display: inline-block;
-    margin-left: 10px !important;
+  position: relative;
+  display: inline-block;
+  margin-left: 10px !important;
 }
 .css-xdk0uo {
-    font-size: 2.5vw !important;
+  font-size: 2.5vw !important;
 }
 .css-1an5mc4 {
-    font-size: 1.3vw !important;
+  font-size: 1.3vw !important;
 }
 .css-h5wsdi label {
-    font-size: 1.6vw !important;
+  font-size: 1.6vw !important;
 }
 .css-12k8d50 {
-    font-size: 1.3vw !important;
+  font-size: 1.3vw !important;
 }
 .chakra-input {
-    /* height: 3vw !important; */
-    /* font-size: 1.2vw !important; */
+  /* height: 3vw !important; */
+  /* font-size: 1.2vw !important; */
 }
 @media screen and (max-width: 1350px) {
-    .chakra-button {
-        font-size: 13px !important;
-    }
-    .chakra-button svg {
-        height: 17px;
-    }
-    .hero-business2-form {
-        height: 450px !important;
-    }
+  .chakra-button {
+    font-size: 13px !important;
+  }
+  .chakra-button svg {
+    height: 17px;
+  }
+  .hero-business2-form {
+    height: 450px !important;
+  }
 }
 @media screen and (max-width: 1150px) {
-    
-    .css-xdk0uo {
-        line-height: 40px !important;
-        letter-spacing: -0.25px !important;
-    }
-    .chakra-heading {
-        letter-spacing: -0.25px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-    }
-    .chakra-button svg {
-        height: 14px;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    .css-1o30ejf {
-        display: none !important;
-    }
-    .css-14ollcw {
-        display: none !important;
-    }
-    .hero-business2-form {
-        height: 420px !important;
-    }
+  .css-xdk0uo {
+    line-height: 40px !important;
+    letter-spacing: -0.25px !important;
+  }
+  .chakra-heading {
+    letter-spacing: -0.25px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+  }
+  .chakra-button svg {
+    height: 14px;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  .css-1o30ejf {
+    display: none !important;
+  }
+  .css-14ollcw {
+    display: none !important;
+  }
+  .hero-business2-form {
+    height: 420px !important;
+  }
 }
 @media screen and (max-width: 1014px) {
-    
-    .css-xdk0uo {
-        line-height: 25px !important;
-    }
-    .css-1an5mc4 {
-        margin-top: 8px !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 8px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-    }
-    .chakra-button svg {
-        height: 14px;
-    }
-    .chakra-button {
-        height: 35px !important;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    .css-1uedivm {
-        padding-top: 5px !important;
-    }
-    .css-7hr9sj {
-        width: 150px !important;
-    }
-    .css-ktesiy {
-        margin-top : 0px !important;
-        margin-bottom : 0px !important;
-    }
-    .hero-business2-form {
-        height: 360px !important;
-    }
+  .css-xdk0uo {
+    line-height: 25px !important;
+  }
+  .css-1an5mc4 {
+    margin-top: 8px !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 8px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+  }
+  .chakra-button svg {
+    height: 14px;
+  }
+  .chakra-button {
+    height: 35px !important;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  .css-1uedivm {
+    padding-top: 5px !important;
+  }
+  .css-7hr9sj {
+    width: 150px !important;
+  }
+  .css-ktesiy {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .hero-business2-form {
+    height: 360px !important;
+  }
 }
 @media screen and (max-width: 900px) {
-    
-    .css-xdk0uo {
-        line-height: 22px !important;
-        font-weight: 600 !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 8px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-    }
-    .chakra-button svg {
-        height: 12px;
-    }
-    .chakra-button {
-        height: 30px !important;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    .css-c69crw {
-        margin-bottom: 3px !important;
-    }
-    .css-ktesiy {
-        margin-top: 3px !important;
-        margin-bottom: 3px !important;
-    }
-    .css-16sy36q {
-        margin-top: 3px !important;
-        margin-bottom: 3px !important;
-    }
-    .broker-profile-box {
-        margin-bottom: 0px !important;
-    }
-    .css-18focvx {
-        margin-bottom: 2px !important;
-    }
-    .hero-kind div svg {
-        height: 32px !important;
-    }
-    .css-ir7jip {
-        margin-top: 10px !important;
-    }
-    .hero-business2-form {
-        height: 260px !important;
-    }
-    .chakra-input {
-        /* width: 80px !important; */
-    }
-    .hero-success-h1 {
-        font-size: 35px !important;
-    }
+  .css-xdk0uo {
+    line-height: 22px !important;
+    font-weight: 600 !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 8px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+  }
+  .chakra-button svg {
+    height: 12px;
+  }
+  .chakra-button {
+    height: 30px !important;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  .css-c69crw {
+    margin-bottom: 3px !important;
+  }
+  .css-ktesiy {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+  }
+  .css-16sy36q {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+  }
+  .broker-profile-box {
+    margin-bottom: 0px !important;
+  }
+  .css-18focvx {
+    margin-bottom: 2px !important;
+  }
+  .hero-kind div svg {
+    height: 32px !important;
+  }
+  .css-ir7jip {
+    margin-top: 10px !important;
+  }
+  .hero-business2-form {
+    height: 260px !important;
+  }
+  .chakra-input {
+    /* width: 80px !important; */
+  }
+  .hero-success-h1 {
+    font-size: 35px !important;
+  }
 }
 @media screen and (max-width: 850px) {
-    
 }
 @media screen and (max-width: 810px) {
-    .broker-content img {
-        width: 88% !important;
-    }
-    .css-r0ta83 {
-        max-width: 460px !important;
-    }
+  .broker-content img {
+    width: 88% !important;
+  }
+  .css-r0ta83 {
+    max-width: 460px !important;
+  }
 }
 @media screen and (max-width: 700px) {
-    .hero-required-input, #insurance_start_date, #postcode {
-        
-        height: 40px !important;
-    }
-    .css-1ixjij4 label {
-        font-size: 10px !important;
-    }
+  .hero-required-input,
+  #insurance_start_date,
+  #postcode {
+    height: 40px !important;
+  }
+  .css-1ixjij4 label {
+    font-size: 10px !important;
+  }
 }
 @media screen and (max-width: 650px) {
-    .css-xdk0uo {
-        line-height: 20px !important;
-        font-weight: 500 !important;
-    }
-    .css-1an5mc4 {
-        margin-top: 3px !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 3px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-    }
-    .chakra-button svg {
-        height: 10px;
-    }
-    .chakra-button {
-        height: 23px !important;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    /* .step2-right-box {
+  .css-xdk0uo {
+    line-height: 20px !important;
+    font-weight: 500 !important;
+  }
+  .css-1an5mc4 {
+    margin-top: 3px !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 3px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+  }
+  .chakra-button svg {
+    height: 10px;
+  }
+  .chakra-button {
+    height: 23px !important;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  /* .step2-right-box {
         width: 65% !important;
     } */
-    .css-2q2xpi, .css-fylf1x {
-        min-width: 140px !important;
-    }
-    .css-w8olqy {
-        margin-top: 2px !important;
-        margin-bottom: 2px !important;
-    }
-    .hero-input div svg {
-        height: 10px !important;
-    }
-    .hero-business2-form {
-        height: 220px !important;
-    }
-    .hero-success-h1 {
-        font-size: 25px !important;
-    }
-    .hero-success-text {
-        font-size: 12px !important;
-    }
+  .css-2q2xpi,
+  .css-fylf1x {
+    min-width: 140px !important;
+  }
+  .css-w8olqy {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+  .hero-input div svg {
+    height: 10px !important;
+  }
+  .hero-business2-form {
+    height: 220px !important;
+  }
+  .hero-success-h1 {
+    font-size: 25px !important;
+  }
+  .hero-success-text {
+    font-size: 12px !important;
+  }
 }
 @media screen and (max-width: 600px) {
-    .css-xdk0uo {
-        line-height: 16px !important;
-        font-weight: 400 !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 3px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-    }
-    .chakra-button svg {
-        height: 8px;
-    }
-    .chakra-button {
-        height: 23px !important;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    .map-pin-box svg {
-        height: 8px !important;
-    }
-    .css-vdlvau {
-        margin-top: 2px !important;
-    }
-    .hero-business-form {
-        height: 200px !important;
-    }
-    .hero-business2-form {
-        height: 200px !important;
-    }
-    .hero-required-input, #insurance_start_date, #postcode {
-        
-        height: 30px !important;
-        font-size: 15px !important;
-    }
-    .css-1ixjij4 label {
-        font-size: 7px !important;
-    }
-    .hero-success-h1 {
-        font-size: 23px !important;
-    }
-    .hero-success-text {
-        font-size: 11px !important;
-        margin-top: 10px !important;
-    }
+  .css-xdk0uo {
+    line-height: 16px !important;
+    font-weight: 400 !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 3px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+  }
+  .chakra-button svg {
+    height: 8px;
+  }
+  .chakra-button {
+    height: 23px !important;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  .map-pin-box svg {
+    height: 8px !important;
+  }
+  .css-vdlvau {
+    margin-top: 2px !important;
+  }
+  .hero-business-form {
+    height: 200px !important;
+  }
+  .hero-business2-form {
+    height: 200px !important;
+  }
+  .hero-required-input,
+  #insurance_start_date,
+  #postcode {
+    height: 30px !important;
+    font-size: 15px !important;
+  }
+  .css-1ixjij4 label {
+    font-size: 7px !important;
+  }
+  .hero-success-h1 {
+    font-size: 23px !important;
+  }
+  .hero-success-text {
+    font-size: 11px !important;
+    margin-top: 10px !important;
+  }
 }
 @media screen and (max-width: 522px) {
-    .css-xdk0uo {
-        line-height: 12px !important;
-        font-weight: 300 !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 3px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-        height: 23px !important;
-    }
-    .chakra-button svg {
-        height: 8px;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    .css-vdlvau {
-        margin-top: 2px !important;
-    }
-    .hero-business2-form {
-        height: 200px !important;
-    }
-    .hero-required-input, #insurance_start_date, #postcode {
-        
-        height: 27px !important;
-        font-size: 12px !important;
-    }
-    .css-1ixjij4 label {
-        font-size: 6px !important;
-    }
+  .css-xdk0uo {
+    line-height: 12px !important;
+    font-weight: 300 !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 3px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+    height: 23px !important;
+  }
+  .chakra-button svg {
+    height: 8px;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  .css-vdlvau {
+    margin-top: 2px !important;
+  }
+  .hero-business2-form {
+    height: 200px !important;
+  }
+  .hero-required-input,
+  #insurance_start_date,
+  #postcode {
+    height: 27px !important;
+    font-size: 12px !important;
+  }
+  .css-1ixjij4 label {
+    font-size: 6px !important;
+  }
 }
 @media screen and (max-width: 512px) {
-    .css-xdk0uo {
-        line-height: 12px !important;
-        font-weight: 300 !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 3px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-        height: 20px !important;
-    }
-    .chakra-button svg {
-        height: 8px;
-    }
-    .css-2qrmgs {
-        margin-top: 13px !important;
-    }
-    #postcode-feedback {
-        font-size: 10px !important;
-        height: 20px !important;
-    }
+  .css-xdk0uo {
+    line-height: 12px !important;
+    font-weight: 300 !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 3px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+    height: 20px !important;
+  }
+  .chakra-button svg {
+    height: 8px;
+  }
+  .css-2qrmgs {
+    margin-top: 13px !important;
+  }
+  #postcode-feedback {
+    font-size: 10px !important;
+    height: 20px !important;
+  }
 }
 @media screen and (max-width: 500px) {
-    .css-xdk0uo {
-        line-height: 12px !important;
-        font-weight: 300 !important;
-        margin-top: 3px !important;
-    }
-    .css-12k8d50 {
-        margin-bottom: 3px !important;
-    }
-    .chakra-button {
-        font-size: 11px !important;
-        height: 20px !important;
-    }
-    .chakra-button svg {
-        height: 8px;
-    }
-    .broker-search-tool {
-        min-width: 480px !important;
-    }
-    .broker-box {
-        max-width: 480px !important;
-    }
-    .css-2qrmgs {
-        margin-top: 0px !important;
-    }
-    #postcode-feedback {
-        font-size: 10px !important;
-        height: 20px !important;
-    }
+  .css-xdk0uo {
+    line-height: 12px !important;
+    font-weight: 300 !important;
+    margin-top: 3px !important;
+  }
+  .css-12k8d50 {
+    margin-bottom: 3px !important;
+  }
+  .chakra-button {
+    font-size: 11px !important;
+    height: 20px !important;
+  }
+  .chakra-button svg {
+    height: 8px;
+  }
+  .broker-search-tool {
+    min-width: 480px !important;
+  }
+  .broker-box {
+    max-width: 480px !important;
+  }
+  .css-2qrmgs {
+    margin-top: 0px !important;
+  }
+  #postcode-feedback {
+    font-size: 10px !important;
+    height: 20px !important;
+  }
 }
 @media screen and (max-width: 500px) {
-    .broker-search-tool {
-        min-width: 350px !important;
-    }
-    .broker-box {
-        max-width: 350px !important;
-    }
-    .css-h5wsdi label {
-        margin-top: 3px !important;
-        margin-bottom: 3px !important;
-    }
+  .broker-search-tool {
+    min-width: 350px !important;
+  }
+  .broker-box {
+    max-width: 350px !important;
+  }
+  .css-h5wsdi label {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+  }
 }
-
 
 .css-cyrq5u {
-    font-size: 2vw !important;
-    line-height: initial !important;
+  font-size: 2vw !important;
+  line-height: initial !important;
 }
 .hero-text {
-    font-size: 1.2vw !important;
-    line-height: initial !important;
+  font-size: 1.2vw !important;
+  line-height: initial !important;
 }
 .hero-h2 {
-    font-size: 1.5vw !important;
+  font-size: 1.5vw !important;
 }
 .hero-h3 {
-    font-size: 1.3vw !important;
+  font-size: 1.3vw !important;
 }
 .hero-button {
-    height: 4vw !important;
-    font-size: 1.2vw !important;
+  height: 4vw !important;
+  font-size: 1.2vw !important;
 }
 .hero-next-btn button {
-    position: absolute !important;
-    top: 0 !important;
-    right: 0px !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0px !important;
 }
 /* .css-1ixjij4 label {
     font-size: 0.7vw !important;
 } */
 .css-502kp3 {
-    font-size: 0.7vw !important;
-    margin-top: 1px !important;
+  font-size: 0.7vw !important;
+  margin-top: 1px !important;
 }
 .css-1m0233m {
-    top: 10px !important;
+  top: 10px !important;
 }
 .css-5ha3lw {
-    top: 10px !important;
+  top: 10px !important;
 }
 /* .css-1ixjij4 {
     max-width: 468px !important;
 } */
 
-
 .css-1h5dg14 {
-    top: 12px !important;
+  top: 12px !important;
 }
 .carousel.carousel-slider .control-arrow {
-    background: rgb(129 209 132) !important;
-    position: fixed !important;
-    height: 40vw !important;
-    width: 4vw !important;
-    top: 8vw !important;
+  background: rgb(129 209 132) !important;
+  position: fixed !important;
+  height: 40vw !important;
+  width: 4vw !important;
+  top: 8vw !important;
 }
 .carousel .control-dots .dot {
-    background: #007504 !important;
-    width: 14px !important;
-    height: 14px !important;
+  background: #007504 !important;
+  width: 14px !important;
+  height: 14px !important;
 }
